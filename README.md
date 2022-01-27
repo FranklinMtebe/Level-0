@@ -1,27 +1,8 @@
-# Coding Challanges Project (Level 0)
+# Coding Challanges (Level 0)
 
 **Task 0.1:** Converting pseudocode into actual code that prints the output of values to the console..
 
-**[**
-x = 0
-y = 1
-Print the value of x
-Print the value of y
-x = x + 3
-y = y + x
-Print the value of x
-Print the value of y
-**]**
-
 **Task 0.2:** Convert pseudocode into JavaScript code that perfomes calculations then prints the output to the console.
-
-**[**
-x = 1 + 1 * 2
-y = (1 + 1) * 2
-z = 1 + ( 1 * 2 )
-a = 1 + 1 * 2 / 2
-b = (1 + 1 * 2 ) /  2
-**]**
 
 **Task 0.3:** Writing a function that takes in a string as an argument then prints output to the console.
 
