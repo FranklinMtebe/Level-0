@@ -1,10 +1,9 @@
 function evenOrOdd (number) {
-    //checking if the number is an even or odd
-    if(number % 2 == 0) {
-    console.log("even");
+    if(number % 2 === 0) {
+    console.log("The Number is: Even");
     }
     else {
-    console.log("odd");
+    console.log("The Number is: Odd");
     }
 }
 evenOrOdd(4)

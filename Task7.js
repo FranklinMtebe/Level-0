@@ -1,14 +1,10 @@
-function temperature1(celsius) {
-    //temperature from Celsius to Fahrenheit.
-    var fahrenheit = celsius * (9 / 5) + 32;
-    console.log("Fahrenheit: " + fahrenheit + " °F");
+function celsiusToFahrenheit(celsius) {
+    let fahrenheit = celsius * (9 / 5) + 32;
+    return fahrenheit;
 }
-temperature1(30);
-
-function temperature2(Fahrenheit) {
-    //temperature from Fahrenheit to Celsius.
-    var Celsius = (5 / 9)*(Fahrenheit - 32);
-    console.log("Celsius: " + Celsius + " °C");
-        
+celsiusToFahrenheit(30);
+function fahrenheitToCelsius(Fahrenheit) {
+    let Celsius = (5 / 9)*(Fahrenheit - 32);
+    return Celsius;
 }
-temperature2(20);
+fahrenheitToCelsius(20);

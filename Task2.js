@@ -1,10 +1,8 @@
-// Variable Declaration
-var x;
-var y;
-var z;
-var a;
-var b;
-// Assigning the values of the calculations to variables
+let x;
+let y;
+let z;
+let a;
+let b;
 x = 1 + 1 * 2
 y = (1 + 1) * 2
 z = 1 + ( 1 * 2 )

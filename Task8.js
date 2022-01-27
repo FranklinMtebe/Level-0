@@ -1,22 +1,15 @@
 function numberToTime(number){ 
-    // Variable declaration & initialising
-     var string1 = "hours";
-     var string2 = "minutes";
-    // Converting numbers to hours and minutes
-    var hours = Math.floor(number / 60);  
-    var minutes = number % 60;
-    if (hours > 1){
-        string1;  
-    } else if (minutes > 1) {
-        string2; 
-    } else if  (hours <= 1){
-        string1 = "hour";
-    } else if (minutes <= 1) {
-        string2 = "minute";
+    let string1;
+    let string2;
+    let hours = Math.floor(number / 60);  
+    let minutes = number % 60;
+    if (hours > 1 && minutes > 1){
+        string1 = "Hours";  
+        string2 = "Minutes";
     } else {
-        console.log ("no arguments have been passed to this function")
+        string1 = "Hour";  
+        string2 = "Minute";
     }
-    console.log(hours +" "+ string1 +", " + minutes +" "+string2 + ".");        
+    console.log(hours +" "+ string1 +", " + minutes +" "+ string2 + ".");        
 }
-
 numberToTime(133)

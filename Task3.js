@@ -1,5 +1,4 @@
-// funtion that takes in strings as an argument
-function hello (greeting, name) {
-    console.log(greeting, name);
+function hello (name) {
+    console.log("Hello " + name + "!");
 }
-hello("Hello", "Tshepo!")
+hello("Tshepo")

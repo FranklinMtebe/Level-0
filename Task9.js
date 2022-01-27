@@ -1,10 +1,12 @@
 function theVowels (theString) {
-    // printing out all vowels in a string on the console
-    var theOutput = theString.match(/[aeiou]/ig).join("");
-    console.log(theOutput)  
-}
-theVowels("Umuzi")
-
-
-
-
+    let theSpace = " "; 
+    theSplitedString = theString.split("").join(theSpace);
+    let theLowerCaseString = theSplitedString.toLowerCase().split(" ")
+    let theExtractedString = theLowerCaseString.filter((value, index, src) => {
+        return src.indexOf(value)
+         == index
+    }).join(" ")
+        let theOutput = theExtractedString.match(/[aeiou]/ig).join(", ");
+    console.log("The vowels in lowercases are: " + theOutput);  
+    }
+    theVowels("Umuzi")
