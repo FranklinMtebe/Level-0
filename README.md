@@ -1,4 +1,4 @@
-# Level 0
+# Coding Challanges Project (Level 0)
 
 **Task 0.1:** Converting pseudocode into actual code that prints the output of values to the console..
 
