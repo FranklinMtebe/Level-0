@@ -1,15 +1,22 @@
-function numberToTime(number){ 
+function numberToTime(number) {
     let string1;
     let string2;
-    let hours = Math.floor(number / 60);  
+    let hours = Math.floor(number / 60);
     let minutes = number % 60;
-    if (hours > 1 && minutes > 1){
-        string1 = "Hours";  
-        string2 = "Minutes";
+    if (hours === 1) {
+      string1 = "Hour";
     } else {
-        string1 = "Hour";  
-        string2 = "Minute";
+      string1 = "hours";
     }
-    console.log(hours +" "+ string1 +", " + minutes +" "+ string2 + ".");        
-}
-numberToTime(133)
+    if (minutes === 1) {
+      string2 = "Minute";
+    } else {
+      string2 = "Minutes";
+    }
+    if (number === 60) {
+      console.log("0" + " Hours " + "60" + " Minutes,");
+    } else {
+      console.log(hours + " " + string1 + ", " + minutes + " " + string2 + ".");
+    }
+  }
+  numberToTime(60);

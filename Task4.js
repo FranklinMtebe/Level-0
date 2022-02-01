@@ -1,9 +1,8 @@
-function evenOrOdd (number) {
-    if(number % 2 === 0) {
-    console.log("The Number is: Even");
+function evenOrOdd(number) {
+    if (number % 2 === 0) {
+      console.log("The Number is: Even");
+    } else {
+      console.log("The Number is: Odd");
     }
-    else {
-    console.log("The Number is: Odd");
-    }
-}
-evenOrOdd(4)
+  }
+  evenOrOdd(4);
