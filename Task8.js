@@ -1,8 +1,8 @@
 function numberToTime(number) {
     let string1;
     let string2;
-    let hours = Math.floor(number / 60);
-    let minutes = number % 60;
+    const hours = Math.floor(number / 60);
+    const minutes = number % 60;
     if (hours === 1) {
       string1 = "Hour";
     } else {

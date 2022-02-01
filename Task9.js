@@ -1,5 +1,5 @@
 function theVowels(theString) {
-    let theSpace = " ";
+    const theSpace = " ";
     theSplitedString = theString.split("").join(theSpace);
     let theLowerCaseString = theSplitedString.toLowerCase().split(" ");
     let theExtractedString = theLowerCaseString
@@ -7,7 +7,7 @@ function theVowels(theString) {
         return src.indexOf(value) == index;
       })
       .join(" ");
-    let theOutput = theExtractedString.match(/[aeiou]/gi).join(", ");
+    const theOutput = theExtractedString.match(/[aeiou]/gi).join(", ");
     console.log("The vowels in lowercases are: " + theOutput);
   }
   theVowels("Umuzi");
