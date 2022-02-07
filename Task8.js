@@ -14,7 +14,7 @@ function numberToTime(number) {
       string2 = "Minutes";
     }
     if (number === 60) {
-      console.log("0" + " Hours " + "60" + " Minutes,");
+      console.log("0" + " Hours, " + "60" + " Minutes");
     } else {
       console.log(hours + " " + string1 + ", " + minutes + " " + string2 + ".");
     }
